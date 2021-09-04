@@ -5,6 +5,7 @@
     "url": "git@github.com:typpo/textbelt.git"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.6.14",
     "nodemailer": "^5.1.1"
   },
@@ -17,7 +18,7 @@
   },
   "main": "app",
   "engines": {
-    "node": ">= 4.3.2"
+    "node": "14.x"
   },
   "version": "0.0.3",
   "scripts": {
