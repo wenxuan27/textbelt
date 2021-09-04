@@ -65,6 +65,7 @@ function textRequestHandler(req, res, number, carrier, region) {
   });
 }
 
+
 // App routes
 app.get('/', (req, res) => {
   res.send("I'm online!");
